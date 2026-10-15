@@ -32,6 +32,29 @@ tasks from claude (tutor), i predict the output on paper, then check.
 - dict, nested dict, .get(k, 0), KeyError: went ok
 - mix t1 + t2 (alias + slice + dict) wrong 2x, skipped the table again
 
+## mon 12.10
+- brain dump t0-t2 on paper, reading = clicks, recalling = not
+- alias vs slice control task right 1st try
+- t3: if/elif first hit, multiple if = separate chains, code in t3_conditionals_uebungen.py
+- truthiness: "False" truthy, [0] truthy, 0 falsy (got 0 wrong 1x)
+- or returns a value: "" or "Nudeln" -> Nudeln
+
+## tue 13.10
+- t4: def, print vs return (no return -> None), range, accumulator, code in t4_functions_uebungen.py
+- default arg by=1, x only changes where x = stands
+- ternary: middle first, middle never printed
+- increment task (quiz recap) totally wrong w/o table
+- mal variant: applied condition to return value, printed bool
+- after ~2h45 mix tasks drop off
+
+## wed 14.10
+- ternary check: logic right, mapped to wrong i (4 10 4 vs 10 4 10)
+- t4: param = alias of arg, items.append changes caller list, items = [] doesn't
+- add_city/reset_cities, rein/weg, tausch mostly right after 2 rules
+- filter fn blueprint: result list before loop, return after loop
+- review t0-t3: t0 clean, t2/t3 mix weaker (dict key vs value, .get default, elif first hit)
+- still mixing up what happens vs what's returned (.append/.sort -> None, sorted -> new list)
+- [ ] missing on slice/list results, 7x now
+
 ## todo
-- redo alias vs slice (only bare name is alias), with table
-- conditionals, functions/range, write code by hand
+- k1/k2 (.get with 0 + or, two if chains), write nur_gerade myself, mock quiz
